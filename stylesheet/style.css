@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&family=Oswald:wght@700&family=Poppins:wght@700&display=swap');
+.content_animate {
+display: none;
+}
+* {
+box-sizing: border-box;
+}
+body {
+background-color: #FEFEFE;
+color: #1A1A1A;
+font-size: 1rem;
+font-family: "Open Sans", sans-serif;
+margin: 0;
+}
+a {
+color: inherit;
+text-decoration: none;
+}
+img {
+max-width: 100%;
+height: auto;
+display: block;
+}
+.flex-1 {
+display: flex;
+align-items: center;
+height: inherit;
+max-width: 900px;
+justify-content: space-between;
+margin: 0 auto;
+padding: 0 12px;
+}
+.header {
+background: #111;
+color: #F1F1F1;
+font-family: 'Poppins', sans-serif;
+max-width: 100%;
+height: 50px;
+}
+.sticky_header {
+position: fixed;
+top: 0;
+width: 100%;
+opacity: 0.8;
+}
+.main_title {
+font-weight: 700;
+font-size: 22px;
+}
+.menu {
+display: flex;
+}
+.slide_show {
+background: url("../img_src/banner/1020.jpg") no-repeat center center;
+background-size: cover;
+height: 400px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.slide_title {
+font-family: "Oswald", cursive;
+font-weight: 700;
+font-size: 26px;
+color: #FFF;
+}
+.bottom_buttons {
+position: absolute;
+right: 12px;
+bottom: 20px;
+}
+.flex-2 {
+display: flex;
+}
+.content {
+max-width: 600px;
+}
+.main {
+max-width: 900px;
+padding: 0 12px;
+margin: 0 auto;
+padding: 0 12px 0 12px;
+}
+.div_content {
+display: flex;
+justify-content: space-between;
+margin-top: 41px;
+}
+.about_info_title {
+font-family: "Montserrat", sans-serif;
+font-weight: 700;
+font-size: 20px;
+color: #0B0B0B;
+padding: 0 0 0 7px;
+display: none;
+}
+.about_info_title::after {
+content: '';
+display: inline-block;
+background: #0B0B0B;
+width: 4px;
+height: 24px;
+margin-left: 15px;
+vertical-align: middle;
+}
+.exeption_margin {
+margin-top: 67px;
+}
+.bottom_img {
+margin: 60px auto 0 auto;
+}
+.footer {
+background: #111;
+color: #F2F2F2;
+/* display: flex;
+align-items: center;
+justify-content: flex-start; */
+margin-top: 200px;
+font-family: "Montserrat", sans-serif;
+height: auto;
+}
+.holder_foot {
+max-width: 900px;
+margin: 0 auto;
+padding: 0 12px;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+.copy {
+font-weight: 400;
+/* margin: 0 auto; */
+float: left;
+}
+.contact {
+font-weight: 400;
+color: #F1F1F1;
+font-family: 'Montserrat', sans-serif;
+/* display: inline-block; */
+padding-right: 10px;
+display: none;
+}
+.active_contact_button {
+display: inline-block;
+vertical-align: middle;
+padding-top: 2px;
+animation: showLink .45s forwards;
+}
+.active_contact_button:hover {
+color: #FFF;
+}
+.start_up {
+display: block;
+animation: start_content 3s forwards;
+}
+.contact_section {
+max-width: 900px;
+margin: 0 auto;
+}
+.title_contact {
+display: flex;
+margin: 0 auto;
+justify-content: center;
+padding-top: 62px;
+align-items: center;
+}
+.contact_me {
+font-weight: 400;
+font-family: "Montserrat", sans-serif;
+font-size: 20px;
+color: #1A1A1A;
+}
+.form {
+display: flex;
+flex-direction: column;
+max-width: 430px;
+margin: 0 auto;
+padding-top: 30px;
+font-family: "Montserrat", sans-serif;
+font-size: 17px;
+padding: 0 12px;
+}
+label {
+font-family: inherit;
+padding: 17px 0 10px 0px;
+}
+input {
+height: 46px;
+padding: 6px 12px;
+font-size: 16px;
+color: #000;
+font-family: Arial, sans-serif;
+}
+input[name="mensage"] {
+height: 100px;
+}
+input:focus {
+box-shadow: 0px 0px 2px #D4D4D4;
+}
+.primary_animation {
+animation: second_start 3s forwards;
+display: block;
+}
+.icon_misc {
+display: none;
+}
+.active_img {
+display: block;
+animation: active_img 1s forwards;
+}
+@keyframes active_img {
+    from {
+    opacity: 0;
+    }
+    to {
+    opacity: 1;
+    }
+}
+@keyframes second_start {
+    from {
+    opacity: 0;
+    transform: translate3d(200px, 0, 0);
+    }
+    to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    }
+}
+@keyframes start_content {
+    from {
+    opacity: 0;
+    transform: translate3d(-128px, 0, 0);
+    }
+    to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    }
+}
+@keyframes showLink {
+    from {
+    opacity: 0;
+    transform: translate3d(35px, 0, 0);
+    }
+    to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    }
+}
