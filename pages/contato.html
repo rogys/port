@@ -24,15 +24,12 @@
                 <img src="../img_src/person.svg" alt="Pessoa">
                 <h1 class="contact_me">Entre em contato comigo:</h1>
             </div>
-            <form action="contact.php" class="form">
-                <label for="name">Nome:<br /></label>
-                <input type="text" name="name" id="">
-                <label for="email">Email:<br /></label>
-                <input type="text" name="email" id="">
+            <form action="contact.php" method="GET" class="form">
                 <label for="subject">Assunto:<br /></label>
                 <input type="text" name="subject" id="">
                 <label for="mensage">Mensagem:<br /></label>
                 <textarea style="resize: none; height: 100px;" name="mensage" id=""></textarea>
+                <button type="submit" class="send_mensage">Enviar</button>
             </form>
         </main>
         <footer class="footer">
