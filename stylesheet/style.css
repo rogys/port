@@ -265,6 +265,35 @@ max-width: 12% !important;
 ._34 {
 max-width: 34% !important;
 }
+.translate {
+position: fixed;
+background: #111;
+bottom: 0;
+opacity: 0.5;
+height: 60px;
+min-width: 100%;
+display: none;
+align-items: center;
+justify-content: center;
+}
+.show_translate_bar {
+display: flex;
+animation: show_translate 5s forwards;
+}
+.press_key {
+display: block;
+color: #FEFEFE;
+}
+@keyframes show_translate {
+    from {
+    opacity: 0;
+    transform: translate3d(0, -60px, 0);
+    }
+    to {
+    opacity: 0.5;
+    transform: translate3d(0, 0, 0);
+    }
+}
 @keyframes active_bar {
     from {
     width: 0;
