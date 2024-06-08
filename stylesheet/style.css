@@ -172,13 +172,14 @@ display: block;
 animation: start_content 3s forwards;
 }
 .contact_section {
-max-width: 900px;
+max-width: 500px;
 margin: 0 auto;
 }
 .title_contact {
 display: flex;
 margin: 0 auto;
-justify-content: center;
+padding-bottom: 2rem;
+justify-content: space-between;
 padding-top: 62px;
 align-items: center;
 }
@@ -186,7 +187,10 @@ align-items: center;
 font-weight: 400;
 font-family: "Montserrat", sans-serif;
 font-size: 20px;
+line-height: 21px;
+margin: 0;
 color: #1A1A1A;
+align-self: flex-end;
 }
 .form {
 display: flex;
