@@ -5,6 +5,14 @@ display: none;
 * {
 box-sizing: border-box;
 }
+.bar_count {
+background: #141887;
+height: 4px;
+position: fixed;
+z-index: 500;
+top: 0;
+left: 0;
+}
 body {
 background-color: #F7F5FF;
 color: #1A1A1A;
@@ -39,7 +47,7 @@ height: 50px;
 }
 .sticky_header {
 position: fixed;
-top: 0;
+top: 4px;
 width: 100%;
 opacity: 0.8;
 }
