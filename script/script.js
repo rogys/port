@@ -100,15 +100,15 @@ function handleKeyboard(event) {
         default:
             translateDiv.classList.remove('show_translate_bar');
     };
-    function barCount() {
-        let barHeight = document.querySelector('.bar_count');
-        window.addEventListener('scroll', function() {
-            let heightScroll = window.scrollY;
-            let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-            let scrolled = (heightScroll / height) * 100;
-            barHeight.style.width = `${scrolled}%`;
-        });
-    };
-    barCount();
+function barCount() {
+    let barHeight = document.querySelector('.bar_count');
+    window.addEventListener('scroll', function() {
+        let heightScroll = window.scrollY;
+        let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        let scrolled = (heightScroll / height) * 100;
+        barHeight.style.width = `${scrolled}%`;
+    });
+};
+barCount();
 };
 addEventListener('keydown', handleKeyboard);
