@@ -100,6 +100,7 @@ function handleKeyboard(event) {
         default:
             translateDiv.classList.remove('show_translate_bar');
     };
+};
 function barCount() {
     let barHeight = document.querySelector('.bar_count');
     window.addEventListener('scroll', function() {
@@ -110,5 +111,4 @@ function barCount() {
     });
 };
 barCount();
-};
 addEventListener('keydown', handleKeyboard);
