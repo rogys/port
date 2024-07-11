@@ -274,7 +274,7 @@ display: flex;
 height: 219px;
 }
 .percentage {
-background: #181818;
+background: #0B0B0B;
 height: 21px;
 }
 .bar_animation {
@@ -321,7 +321,7 @@ color: #FEFEFE;
 text-align: center;
 display: block;
 font-weight: 400;
-color: #181818;
+color: #393C3C;
 padding-top: 30px;
 }
 @media screen and (max-width: 500px) {
