@@ -7,14 +7,14 @@ box-sizing: border-box;
 }
 .bar_count {
 background: #141887;
-height: 4px;
+height: 50px;
 position: fixed;
 z-index: 500;
 top: 0;
 left: 0;
 }
 body {
-background-color: #F7F5FF;
+background-color: #F3F7EC;
 color: #1A1A1A;
 font-size: 1rem;
 font-family: "Open Sans", sans-serif;
@@ -43,11 +43,12 @@ background: #111;
 color: #F1F1F1;
 font-family: 'Poppins', sans-serif;
 max-width: 100%;
+z-index: 1000;
 height: 50px;
 }
 .sticky_header {
 position: fixed;
-top: 4px;
+top: 0px;
 width: 100%;
 opacity: 0.8;
 }
