@@ -39,7 +39,7 @@ margin: 0 auto;
 padding: 0 12px;
 }
 .header {
-background: #111;
+background: #173B45;
 color: #F1F1F1;
 font-family: 'Poppins', sans-serif;
 max-width: 100%;
@@ -131,7 +131,7 @@ height: 5px;
 width: 73px;
 }
 .footer {
-background: #111;
+background: #173B45;
 color: #F2F2F2;
 /* display: flex;
 align-items: center;
@@ -268,7 +268,7 @@ display: flex;
 height: 219px;
 }
 .percentage {
-background: #0B0B0B;
+background: #173B45;
 height: 21px;
 }
 .bar_animation {
