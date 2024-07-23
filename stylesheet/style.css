@@ -6,8 +6,8 @@ display: none;
 box-sizing: border-box;
 }
 .bar_count {
-background: #141887;
-height: 50px;
+background: #FF8225;
+height: 5px;
 position: fixed;
 z-index: 500;
 top: 0;
@@ -45,12 +45,6 @@ font-family: 'Poppins', sans-serif;
 max-width: 100%;
 z-index: 1000;
 height: 50px;
-}
-.sticky_header {
-position: fixed;
-top: 0px;
-width: 100%;
-opacity: 0.8;
 }
 .main_title {
 font-weight: 500;
