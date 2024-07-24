@@ -107,7 +107,6 @@ class InitContent {
         });
     }
 }
-
 let initContent = new InitContent();
 window.onscroll = () => initContent.barCount();
 addEventListener('DOMContentLoaded', () => {
@@ -118,3 +117,5 @@ addEventListener('DOMContentLoaded', () => {
     initContent.writeText();
 });
 addEventListener('keydown', (e) => initContent.handleKeyboard(e));
+console.log("Some rights reserved...");
+console.log("Alguns direitos reservados...");
