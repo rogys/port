@@ -69,8 +69,8 @@ class InitContent {
             case "e":
                 spanContato.textContent = "Contact";
                 h1Banner.textContent = "Innovation start's here...";
-                firstH1Info.textContent = "What you need";
-                secondH1Info.textContent = "How i work";
+                firstH1Info.textContent = "What you need.";
+                secondH1Info.textContent = "How i work.";
                 firstInfo.textContent = "With almost 4 years of learning, everything I do is with perfectionism and attention. Each line of code was crafted with care and attention. No messy code either. Exactly what you need!";
                 secondInfo.textContent = "I make a light mental assessment of your business. Based on this, I proceed with a design in Figma to present it to you. If everything is in order, I proceed to the code.";
                 rights.innerHTML = "<strong>Some</strong> rights <strong>reserved</strong>";
@@ -83,7 +83,7 @@ class InitContent {
                 spanContato.textContent = "Contato";
                 h1Banner.textContent = "Inovação começa aqui";
                 firstH1Info.textContent = "O que você precisa.";
-                secondH1Info.textContent = "Como trabalho";
+                secondH1Info.textContent = "Como trabalho.";
                 firstInfo.innerHTML = "Com quase 4 anos de aprendizado, tudo o que faço é com <strong>perfeccionismo</strong> e atenção. Cada linha de código foi feita com carinho e <strong>atenção</strong>. Nada de <strong>código</strong> borrado (também). <strong>Exatamente</strong> o que você <strong>precisa</strong>!";
                 secondInfo.innerHTML = "Faço um leve <strong>levantamento</strong> mental do seu <strong>negócio</strong>. Com base neste sigo em frente com um desenho no Figma te apresentando este. Se tudo estiver de <strong>acordo</strong> prossigo pro código.";
                 rights.innerHTML = "<strong>Alguns</strong> direitos <strong>reservados</strong>";
