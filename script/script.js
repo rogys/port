@@ -3,6 +3,7 @@ class InitContent {
         this.buttonMenu = document.querySelector('.button_menu');
         this.contentToAnimate = document.querySelectorAll('.content_animate');
         this.translateDiv = document.querySelector('.translate');
+        this.text = "Inovação começa aqui";
     }
     
     showItemHeader() {
@@ -19,12 +20,11 @@ class InitContent {
     }
     
     writeText() {
-        let text = "Inovação começa aqui";
         let h1Banner = document.querySelector('.slide_title');
         let i = 0;
         let intervalId = window.setInterval(() => {
-            h1Banner.textContent += `${text[i++]}`;
-            if (i >= text.length) {
+            h1Banner.textContent += `${this.text[i++]}`;
+            if (i >= this.text.length) {
                 clearInterval(intervalId);
             }
         }, 100);
