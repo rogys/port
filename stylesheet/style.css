@@ -305,7 +305,7 @@ justify-content: center;
 }
 .show_translate_bar {
 display: flex;
-animation: show_translate 5s forwards;
+animation: show_translate 3s forwards;
 }
 .press_key {
 display: block;
