@@ -329,6 +329,11 @@ padding-top: 30px;
     display: none;
     }
 }
+@media screen and (max-width: 768px) {
+    .show_translate_bar {
+    display: none;
+    }
+}
 @keyframes some_space {
     from {
     padding-left: 0;
