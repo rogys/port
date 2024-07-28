@@ -6,7 +6,7 @@ display: none;
 box-sizing: border-box;
 }
 .bar_count {
-background: #FEFEFE;
+background: #DC5F00;
 height: 5px;
 position: fixed;
 z-index: 500;
