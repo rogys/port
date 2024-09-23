@@ -29,7 +29,15 @@ class InitContent {
             }
         }, 100);
     }
-    
+
+    scrollToFooter() {
+        let link = document.querySelector('.contact');
+        let footer = document.querySelector('.footer');
+        link.addEventListener('click', function() {
+            footer.scrollIntoView({behavior: "smooth"});
+        });
+    }
+
     secondAnimation() {
         let h2Animate = document.querySelectorAll('.about_info_title');
         let imgSvg = document.querySelectorAll('.icon_misc');
@@ -115,6 +123,7 @@ addEventListener('DOMContentLoaded', () => {
     initContent.animateStart();
     initContent.showItemHeader();
     initContent.writeText();
+    initContent.scrollToFooter();
 });
 addEventListener('keydown', (e) => initContent.handleKeyboard(e));
 console.log("Some rights reserved...");
