@@ -179,54 +179,6 @@ color: #FFF;
 display: block;
 animation: start_content 3s forwards;
 }
-.contact_section {
-max-width: 500px;
-margin: 0 auto;
-}
-.title_contact {
-display: flex;
-margin: 0 auto;
-padding-bottom: 2rem;
-justify-content: space-between;
-padding-top: 62px;
-align-items: center;
-}
-.contact_me {
-font-weight: 400;
-font-family: "Montserrat", sans-serif;
-font-size: 20px;
-line-height: 21px;
-margin: 0;
-color: #1A1A1A;
-align-self: flex-end;
-}
-.form {
-display: flex;
-flex-direction: column;
-max-width: 430px;
-margin: 0 auto;
-padding-top: 30px;
-font-family: "Montserrat", sans-serif;
-font-size: 17px;
-padding: 0 12px;
-}
-label {
-font-family: inherit;
-padding: 17px 0 10px 0px;
-}
-input {
-height: 46px;
-padding: 6px 12px;
-font-size: 16px;
-color: #000;
-font-family: Arial, sans-serif;
-}
-input[name="mensage"] {
-height: 100px;
-}
-input:focus {
-box-shadow: 0px 0px 2px #D4D4D4;
-}
 .primary_animation {
 animation: second_start 3s forwards;
 display: block;
@@ -237,16 +189,6 @@ display: none;
 .active_img {
 display: block;
 animation: active_img 1s forwards;
-}
-.send_mensage {
-border: 1px solid #878787;
-border-radius: 3px;
-padding: 12px 0;
-background-color: #F6F6F6;
-margin-top: 17px;
-font-family: "Arial", sans-serif;
-color: #1A1A1A;
-cursor: pointer;
 }
 .knowledge {
 padding-left: 0;
