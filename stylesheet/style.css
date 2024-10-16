@@ -270,6 +270,9 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 }
+.menu_footer li {
+margin-left: 16px;
+}
 .wa {
 display: flex;
 align-items: center;
