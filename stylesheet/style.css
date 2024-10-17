@@ -278,10 +278,10 @@ margin-left: 16px;
 .wa {
 display: flex;
 align-items: center;
-max-width: 32px;
 justify-content: space-between;
 }
 .wa img {
+max-width: 32px;
 padding-left: 6px;
 }
 @media screen and (max-width: 500px) {
@@ -299,7 +299,7 @@ padding-left: 6px;
     }
 }
 @media screen and (max-width: 550px) {
-    .wa span {
+    .email_contact {
     display: none;
     }
 }
