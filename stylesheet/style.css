@@ -215,29 +215,32 @@ display: flex;
 height: 219px;
 }
 .percentage {
-background: #0B0B0B;
+background: #235952;
 height: 21px;
 }
 .bar_animation {
 animation: active_bar 5s ease-in-out;
 }
-._47 {
-max-width: 90% !important;
+.html {
+max-width: 72% !important;
 }
-._40 {
-max-width: 80% !important;
+.css {
+max-width: 70% !important;
 }
-._42 {
-max-width: 60% !important;
+.javascript {
+max-width: 48% !important;
 }
-._6 {
-max-width: 26% !important;
+.node {
+max-width: 10% !important;
 }
-._2 {
-max-width: 12% !important;
+.php {
+max-width: 6% !important;
 }
-._34 {
-max-width: 34% !important;
+.mysql {
+max-width: 18% !important;
+}
+.ui {
+max-width: 36% !important;
 }
 .translate {
 position: fixed;
@@ -276,6 +279,7 @@ margin-left: 16px;
 .wa {
 display: flex;
 align-items: center;
+max-width: 32px;
 justify-content: space-between;
 }
 .wa img {
