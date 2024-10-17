@@ -110,7 +110,7 @@ display: none;
 .about_info_title::after {
 content: '';
 display: inline-block;
-background: #0B0B0B;
+background: #235952;
 width: 4px;
 height: 24px;
 margin-left: 15px;
