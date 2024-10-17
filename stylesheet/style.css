@@ -193,13 +193,15 @@ animation: active_img 1s forwards;
 .knowledge {
 padding-left: 0;
 /* padding-bottom: 14px !important; */
-margin: 0;
-display: flex !important;
+/* display: flex !important;
 flex-direction: column !important;
-justify-content: space-between !important;
+justify-content: space-between !important; */
 font-family: "Open Sans", sans-serif;
 font-weight: 400;
 color: #393C3C;
+}
+.content_knowledge {
+margin-top: 16px;
 }
 .percentage_divs {
 padding-left: 14px;
@@ -208,39 +210,36 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 }
-
-.div_content_percentage {
-display: flex;
-/* padding-top: 41px;c   */
-height: 219px;
-}
 .percentage {
 background: #235952;
-height: 21px;
+height: 23px;
+margin-top: 7px;
+border-top-right-radius: 2px;
+border-bottom-right-radius: 2px;
 }
 .bar_animation {
 animation: active_bar 5s ease-in-out;
 }
 .html {
-max-width: 72% !important;
+max-width: 88% !important;
 }
 .css {
-max-width: 70% !important;
+max-width: 80% !important;
 }
 .javascript {
-max-width: 48% !important;
+max-width: 58% !important;
 }
 .node {
-max-width: 10% !important;
+max-width: 23% !important;
 }
 .php {
-max-width: 6% !important;
+max-width: 16% !important;
 }
 .mysql {
-max-width: 18% !important;
+max-width: 22% !important;
 }
 .ui {
-max-width: 36% !important;
+max-width: 44% !important;
 }
 .translate {
 position: fixed;
