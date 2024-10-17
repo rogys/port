@@ -27,7 +27,7 @@ class InitContent {
             if (i >= this.text.length) {
                 clearInterval(intervalId);
             }
-        }, 100);
+        }, 95);
     }
 
     scrollToFooter() {
