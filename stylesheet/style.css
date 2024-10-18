@@ -284,6 +284,9 @@ justify-content: space-between;
 max-width: 32px;
 padding-left: 6px;
 }
+.hide_translate_bar {
+display: none;
+}
 @media screen and (max-width: 500px) {
     .stages {
     flex-direction: column;
@@ -319,11 +322,9 @@ padding-left: 6px;
 @keyframes show_translate {
     from {
     opacity: 0;
-    transform: translate3d(0, -60px, 0);
     }
     to {
     opacity: 0.5;
-    transform: translate3d(0, 0, 0);
     }
 }
 @keyframes active_bar {

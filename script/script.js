@@ -50,6 +50,9 @@ class InitContent {
     }
     
     hideTranslateBar() {
+        this.translateDiv.addEventListener('mouseover', () => {
+            this.translateDiv.classList.add('hide_translate_bar');
+        });
         setTimeout(() => {
             this.translateDiv.classList.remove('show_translate_bar');
         }, 12000);
